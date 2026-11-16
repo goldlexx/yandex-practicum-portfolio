@@ -1,34 +1,31 @@
-# Проекты сделаны в рамках учебы [Яндекс.Практикум](https://praktikum.yandex.ru/) на курсе ["Веб-разработчик"](https://praktikum.yandex.ru/web/).
+# Learning Projects Portfolio
 
-## Основные работы и их описание:
+A static portfolio page that organizes selected web development exercises into beginner, JavaScript, and hands-on practice sections. Project cards link to local demos and published work.
 
-### "Mesto" - это интерактивная страница, где пользователи могут делиться фотографиями. В работе применены расширенные возможности HTML и CSS, JavaScript
-### "How to learn" - это типовой одностраничный сайт про методики обучения. Сайт создан по методологии BEM с файловой структурой Nested BEM.
-### "Путешествие по России" - это типовой одностраничный сайт про российский внутренний туризм. В проектной работе была применена работа с макетом в Figma, построение сложных сеток, расширенные возможности HTML и CSS. 
+## Features
 
+- Project gallery grouped by learning topic
+- Links to included demos and related project pages
+- A muted background video preview in the JavaScript section
 
-| **GithHub Pages** | [Проекты на GitHub Pages](https://goldlexx.github.io/) |
-| ----------------- | -------------------------------------------------------------------- |
+## Tech Stack
 
-## Технологии:
+- HTML5
+- CSS3
+- GitHub Pages workflow for static publishing
 
-* Flexbox
-* Grid Layout
-* Animation and Transform using CSS
-* BEM Methodology
-* File Structure (Nested BEM)
-* Git
-* JavaScript
-* ООП
+## Getting Started
 
-## Будущая доработка проекта будет включать в себя:
+Clone the repository and serve its root directory with a local static HTTP server. For example, if Python is installed:
 
-* Добавление работ с использованием библиотеки React.
+```bash
+git clone https://github.com/goldlexx/yandex-practicum-portfolio.git
+cd yandex-practicum-portfolio
+python -m http.server 8000
+```
 
-## Языки:
+Then open `http://localhost:8000` in a browser.
 
-* JavaScript
+## Project Background
 
-
-
-
+This collection page was created as part of web development studies at Yandex Practicum.
