@@ -1,31 +1,27 @@
-# Learning Projects Portfolio
+<div align="center">
 
-A static portfolio page that organizes selected web development exercises into beginner, JavaScript, and hands-on practice sections. Project cards link to local demos and published work.
+# 🗂️ Learning Projects Portfolio
 
-## Features
+Статичная галерея учебных проектов, сгруппированных по темам обучения.
 
-- Project gallery grouped by learning topic
-- Links to included demos and related project pages
-- A muted background video preview in the JavaScript section
+[![HTML](https://img.shields.io/badge/HTML5-e34f26?logo=html5&logoColor=fff)](https://developer.mozilla.org/en-US/docs/Web/HTML) [![CSS](https://img.shields.io/badge/CSS3-1572b6?logo=css3&logoColor=fff)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-## Tech Stack
+</div>
 
-- HTML5
-- CSS3
-- GitHub Pages workflow for static publishing
+## Возможности
 
-## Getting Started
+- группы проектов по темам;
+- ссылки на локальные демонстрации и отдельные репозитории;
+- фоновый видеофрагмент в разделе JavaScript.
 
-Clone the repository and serve its root directory with a local static HTTP server. For example, if Python is installed:
+## Запуск
 
-```bash
-git clone https://github.com/goldlexx/yandex-practicum-portfolio.git
-cd yandex-practicum-portfolio
-python -m http.server 8000
-```
+Откройте `index.html` или используйте статичный HTTP-сервер.
 
-Then open `http://localhost:8000` in a browser.
+## Технологии
 
-## Project Background
+HTML и CSS.
 
-This collection page was created as part of web development studies at Yandex Practicum.
+## Лицензия
+
+Лицензия в репозитории не указана.
